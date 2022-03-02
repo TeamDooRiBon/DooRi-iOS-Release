@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4002D20127CFBC1400635BD0 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4002D20027CFBC1400635BD0 /* Coordinator.swift */; };
+		4002D20327CFBC4A00635BD0 /* AddTripCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4002D20227CFBC4A00635BD0 /* AddTripCoordinator.swift */; };
+		4002D20527CFC25F00635BD0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4002D20427CFC25F00635BD0 /* BaseViewController.swift */; };
+		4028292227CFC58D00C1EF2D /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4028292127CFC58D00C1EF2D /* .swiftlint.yml */; };
+		4028292827CFC65800C1EF2D /* AddTripViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4028292727CFC65800C1EF2D /* AddTripViewModel.swift */; };
+		40709D7B27CF82A80042C780 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40709D7A27CF82A80042C780 /* AppDelegate.swift */; };
+		40709D7D27CF82A80042C780 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40709D7C27CF82A80042C780 /* SceneDelegate.swift */; };
+		40709D7F27CF82A80042C780 /* AddTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40709D7E27CF82A80042C780 /* AddTripViewController.swift */; };
+		40709D8427CF82AA0042C780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40709D8327CF82AA0042C780 /* Assets.xcassets */; };
+		40709D8727CF82AA0042C780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40709D8527CF82AA0042C780 /* LaunchScreen.storyboard */; };
+		40709D9427CF85B50042C780 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40709D9327CF85B50042C780 /* AppCoordinator.swift */; };
+		FC7A384C348B8D9147F53795 /* Pods_DooRiBon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00B6F11D960B817848E2F7E /* Pods_DooRiBon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4002D20027CFBC1400635BD0 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		4002D20227CFBC4A00635BD0 /* AddTripCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripCoordinator.swift; sourceTree = "<group>"; };
+		4002D20427CFC25F00635BD0 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4028292127CFC58D00C1EF2D /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		4028292727CFC65800C1EF2D /* AddTripViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripViewModel.swift; sourceTree = "<group>"; };
+		40709D7727CF82A80042C780 /* DooRiBon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DooRiBon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40709D7A27CF82A80042C780 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40709D7C27CF82A80042C780 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		40709D7E27CF82A80042C780 /* AddTripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripViewController.swift; sourceTree = "<group>"; };
+		40709D8327CF82AA0042C780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40709D8627CF82AA0042C780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40709D8827CF82AA0042C780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40709D9327CF85B50042C780 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		87A738EAB5E8784377B6AC78 /* Pods-DooRiBon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DooRiBon.release.xcconfig"; path = "Target Support Files/Pods-DooRiBon/Pods-DooRiBon.release.xcconfig"; sourceTree = "<group>"; };
+		A00B6F11D960B817848E2F7E /* Pods_DooRiBon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DooRiBon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EC68E76D47C6CCCE24B3E7 /* Pods-DooRiBon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DooRiBon.debug.xcconfig"; path = "Target Support Files/Pods-DooRiBon/Pods-DooRiBon.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40709D7427CF82A80042C780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7A384C348B8D9147F53795 /* Pods_DooRiBon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4028292327CFC61300C1EF2D /* AddTrip */ = {
+			isa = PBXGroup;
+			children = (
+				4002D20227CFBC4A00635BD0 /* AddTripCoordinator.swift */,
+			);
+			path = AddTrip;
+			sourceTree = "<group>";
+		};
+		4028292427CFC62800C1EF2D /* AddTrip */ = {
+			isa = PBXGroup;
+			children = (
+				4028292527CFC64700C1EF2D /* View */,
+				4028292627CFC64C00C1EF2D /* ViewModel */,
+			);
+			path = AddTrip;
+			sourceTree = "<group>";
+		};
+		4028292527CFC64700C1EF2D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40709D7E27CF82A80042C780 /* AddTripViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4028292627CFC64C00C1EF2D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4028292727CFC65800C1EF2D /* AddTripViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		40709D6E27CF82A80042C780 = {
+			isa = PBXGroup;
+			children = (
+				4028292127CFC58D00C1EF2D /* .swiftlint.yml */,
+				40709D7927CF82A80042C780 /* DooRiBon */,
+				40709D7827CF82A80042C780 /* Products */,
+				D852B6658200BB6A1AB5B76A /* Pods */,
+				DFFC93CB1A78B625DBA7FE3E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40709D7827CF82A80042C780 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40709D7727CF82A80042C780 /* DooRiBon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40709D7927CF82A80042C780 /* DooRiBon */ = {
+			isa = PBXGroup;
+			children = (
+				40709D8E27CF84FB0042C780 /* Application */,
+				40709D9027CF85400042C780 /* Resources */,
+				40709D9127CF85720042C780 /* Sources */,
+			);
+			path = DooRiBon;
+			sourceTree = "<group>";
+		};
+		40709D8E27CF84FB0042C780 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				40709D7A27CF82A80042C780 /* AppDelegate.swift */,
+				40709D7C27CF82A80042C780 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		40709D8F27CF85310042C780 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				4028292427CFC62800C1EF2D /* AddTrip */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		40709D9027CF85400042C780 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				40709D8827CF82AA0042C780 /* Info.plist */,
+				40709D8527CF82AA0042C780 /* LaunchScreen.storyboard */,
+				40709D8327CF82AA0042C780 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		40709D9127CF85720042C780 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				40709D9527CF86310042C780 /* Base */,
+				40709D9227CF85970042C780 /* Coordinator */,
+				40709D8F27CF85310042C780 /* Scene */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		40709D9227CF85970042C780 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				40709D9327CF85B50042C780 /* AppCoordinator.swift */,
+				4028292327CFC61300C1EF2D /* AddTrip */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		40709D9527CF86310042C780 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4002D20027CFBC1400635BD0 /* Coordinator.swift */,
+				4002D20427CFC25F00635BD0 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D852B6658200BB6A1AB5B76A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2EC68E76D47C6CCCE24B3E7 /* Pods-DooRiBon.debug.xcconfig */,
+				87A738EAB5E8784377B6AC78 /* Pods-DooRiBon.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DFFC93CB1A78B625DBA7FE3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A00B6F11D960B817848E2F7E /* Pods_DooRiBon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40709D7627CF82A80042C780 /* DooRiBon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40709D8B27CF82AA0042C780 /* Build configuration list for PBXNativeTarget "DooRiBon" */;
+			buildPhases = (
+				EE5D3F3C40A83CF3419C86FC /* [CP] Check Pods Manifest.lock */,
+				40709D7327CF82A80042C780 /* Sources */,
+				40709D7427CF82A80042C780 /* Frameworks */,
+				40709D7527CF82A80042C780 /* Resources */,
+				7B4D9100F56A46F7D1B38D67 /* [CP] Embed Pods Frameworks */,
+				4002D20627CFC31B00635BD0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DooRiBon;
+			productName = DooRiBon;
+			productReference = 40709D7727CF82A80042C780 /* DooRiBon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40709D6F27CF82A80042C780 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					40709D7627CF82A80042C780 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 40709D7227CF82A80042C780 /* Build configuration list for PBXProject "DooRiBon" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40709D6E27CF82A80042C780;
+			productRefGroup = 40709D7827CF82A80042C780 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40709D7627CF82A80042C780 /* DooRiBon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40709D7527CF82A80042C780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4028292227CFC58D00C1EF2D /* .swiftlint.yml in Resources */,
+				40709D8727CF82AA0042C780 /* LaunchScreen.storyboard in Resources */,
+				40709D8427CF82AA0042C780 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4002D20627CFC31B00635BD0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n${PODS_ROOT}/SwiftLint/swiftlint\n";
+		};
+		7B4D9100F56A46F7D1B38D67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DooRiBon/Pods-DooRiBon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DooRiBon/Pods-DooRiBon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DooRiBon/Pods-DooRiBon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE5D3F3C40A83CF3419C86FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DooRiBon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40709D7327CF82A80042C780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40709D7F27CF82A80042C780 /* AddTripViewController.swift in Sources */,
+				4002D20327CFBC4A00635BD0 /* AddTripCoordinator.swift in Sources */,
+				40709D9427CF85B50042C780 /* AppCoordinator.swift in Sources */,
+				4002D20127CFBC1400635BD0 /* Coordinator.swift in Sources */,
+				40709D7B27CF82A80042C780 /* AppDelegate.swift in Sources */,
+				4028292827CFC65800C1EF2D /* AddTripViewModel.swift in Sources */,
+				4002D20527CFC25F00635BD0 /* BaseViewController.swift in Sources */,
+				40709D7D27CF82A80042C780 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40709D8527CF82AA0042C780 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40709D8627CF82AA0042C780 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40709D8927CF82AA0042C780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40709D8A27CF82AA0042C780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40709D8C27CF82AA0042C780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2EC68E76D47C6CCCE24B3E7 /* Pods-DooRiBon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DooRiBon/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dooriboncorp.dooribon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		40709D8D27CF82AA0042C780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87A738EAB5E8784377B6AC78 /* Pods-DooRiBon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DooRiBon/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dooriboncorp.dooribon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40709D7227CF82A80042C780 /* Build configuration list for PBXProject "DooRiBon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40709D8927CF82AA0042C780 /* Debug */,
+				40709D8A27CF82AA0042C780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40709D8B27CF82AA0042C780 /* Build configuration list for PBXNativeTarget "DooRiBon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40709D8C27CF82AA0042C780 /* Debug */,
+				40709D8D27CF82AA0042C780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40709D6F27CF82A80042C780 /* Project object */;
+}

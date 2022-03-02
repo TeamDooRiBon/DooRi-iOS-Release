@@ -1,0 +1,50 @@
+disabled_rules:
+    - trailing_whitespace
+    - nesting
+    - number_separator
+    - comment_spacing
+
+opt_in_rules:
+    - vertical_parameter_alignment_on_call
+    - operator_usage_whitespace
+    - let_var_whitespace
+    - empty_string
+    - closure_spacing
+    - closure_end_indentation
+    - sorted_imports
+    - redundant_type_annotation
+    - file_name
+    - file_name_no_space
+    - empty_count
+    - vertical_whitespace_opening_braces
+    - vertical_whitespace_closing_braces
+
+excluded:
+    - Pods
+    - DooRiBon/Application/AppDelegate.swift
+    - DooRiBon/Application/SceneDelegate.swift
+
+force_cast: error
+force_try:
+    severity: error
+
+line_length: 100
+
+file_length:
+    error: 300
+
+type_name:
+    min_length:
+    error: 2
+    max_length:
+    warning: 40
+    excluded: iPhone
+identifier_name:
+    min_length:
+    error: 2
+    excluded:
+    - id
+    - URL
+    - GlobalAPIKey
+reporter: "xcode"
+
